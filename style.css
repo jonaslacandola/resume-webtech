@@ -27,11 +27,13 @@ p, li {
 h1, h4, h5, h6 {
     color: var(--head-color);
     font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
 
 }
 
 h2, h3 {
     color: var(--font-color);
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .span-2 {
