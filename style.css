@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    line-height: 1.5em;
+}
+
+:root {
+    --head-color: rgb(14, 14, 96);
+    --font-color: rgb(54, 54, 54)
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 5vh 10vw 5vw 10vw;
+}
+
+p, li {
+    font-size: 14px;
+    color: var(--font-color);
+    font-family: Calibri, Arial, Helvetica;
+    
+}
+
+h1, h4, h5, h6 {
+    color: var(--head-color);
+    font-weight: 600;
+
+}
+
+h2, h3 {
+    color: var(--font-color);
+}
+
+.span-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70vw;
+    column-gap: 15vw;
+    border-top: 2.5px dotted var(--font-color);
+}
+
+.span-2 .skills {
+    border-left: 2.5px dotted var(--font-color);
+    padding-left: 5vw;
+}
+
+.desc {
+    margin-bottom: 1.5vh;
+    margin-top: 2.5vh;
+}
+
+.desc h2 {
+    margin-bottom: 1.5vh;
+}
+
+.span-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 65vw;
+    column-gap: 5vw;
+    
+}
+
+.content {
+    margin-top: 2.5vh;
+    border-top: 2.5px dotted var(--font-color);
+    border-width: 3px;
+    padding-top: 2.5vh;
+}
+
+.intro {
+    margin-bottom: 3vh;
+}
+
+.intro h1 {
+    margin-bottom: 1.5vh;
+}
+
+.tag {
+    margin-bottom: 7vh;
+}
+
+@media screen and (min-width: 600px) {
+    p, li {
+        font-size: .8rem;
+    }
+
+    h1, h5, h6 {
+        font-size: 2em;
+    }
+
+    h2, h3 {
+        font-size: 1.3em;
+    }
+}
+
+
