@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     line-height: 1.5em;
+    letter-spacing: 1.5px;
 }
 
 :root {
@@ -28,7 +29,6 @@ h1, h4, h5, h6 {
     color: var(--head-color);
     font-weight: 600;
     font-family: 'Times New Roman', Times, serif;
-
 }
 
 h2, h3 {
@@ -39,14 +39,15 @@ h2, h3 {
 .span-2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 70vw;
-    column-gap: 15vw;
+    width: 65vw;
+    column-gap: 5vw;
     border-top: 2.5px dotted var(--font-color);
+    border-width: 3px;
 }
 
 .span-2 .skills {
     border-left: 2.5px dotted var(--font-color);
-    padding-left: 5vw;
+    padding-left: 8vw;
 }
 
 .desc {
@@ -82,7 +83,7 @@ h2, h3 {
 }
 
 .tag {
-    margin-bottom: 7vh;
+    margin-bottom: 6vh;
 }
 
 @media screen and (min-width: 600px) {
