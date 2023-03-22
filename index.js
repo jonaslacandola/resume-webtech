@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                 <h3>Education</h3>
                                 <div class="title">
                                     <div class="tag">
-                                        <p>2019 - 2020</p>
+                                        <p>2016 - 2020</p>
                                         <p>Doña Asuncion Lee Integrated School</p>
                                     </div>
                                     <div class="tag">
