@@ -1,5 +1,7 @@
 
 const mainTag = document.querySelector("main");
+
+
 const Tablet = window.matchMedia("(max-width: 600px)");
 const Phone = window.matchMedia("(max-width: 400px)");
 
@@ -12,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class="title">
                 <div class="tag">
                     <h4>Junior High School</h4>
-                    <p>2019 - 2020</p>
+                    <p>2016 - 2020</p>
                     <p>Doña Asuncion Lee Integrated School</p>
                     <p>Xevera Subd., Brgy. Tabun, Mabalacat City, Pampanga</p>
                 </div>
@@ -140,5 +142,5 @@ document.addEventListener("DOMContentLoaded", () => {
                                 <h3>Certificates</h3>
                             </div>`
     }
-    
+
 })
